@@ -1,0 +1,43 @@
+body{
+    background-color: aquamarine;
+    color: rgb(35, 35, 35);
+    /* font-family: "Playwrite CZ", sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+/* Valorizzo le regole per le classi e gli id */
+/* 
+.nomeClasse
+#nomeId
+*/
+
+#chiSiamo{
+    height: fit-content;
+}
+
+.dimSection{
+  width: 100%;
+  border: 1px solid black;
+}
+
+.dimDiv{
+  width: 50%;
+  height: auto;
+  border: 1px dotted red;
+  float: left;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.divFlex{
+  width: 33%;
+  padding: 10px;
+  text-align: center;
+}
+
+.clearfix{
+  clear: both;
+}

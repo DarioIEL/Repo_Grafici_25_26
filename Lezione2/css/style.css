@@ -1,0 +1,19 @@
+/* In questo modo sto fornendo regole direttamente a tutto il body poiché sto assegnando le regole attraverso un tagName */
+body{
+    background-color: rgb(25, 47, 47); /*Colore di sfondo*/
+    color: rgb(255, 255, 255);/*Colore per i testi*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif    
+}
+
+/* Richiamando attraverso il solo tagName tutti gli a avranno il colore bianco */
+a{
+    color: white;
+    /* text-decoration: none; */
+}
+
+/*Le classi sono identificate con il .nomeClasse*/
+/* Le classi possono essere applicate sui vari elementi per quante volte vogliamo */
+.dimImg{
+    width: 200px;
+    height: auto;
+}
