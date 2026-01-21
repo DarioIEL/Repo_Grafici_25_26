@@ -1,0 +1,30 @@
+.container{
+    /* la regola display: flex attiva flexbox. Questa regola va fornita al parent, al genitore */
+    display: flex;
+
+    /* JUSTIFY-CONTENT allinea lungo l'asse principale, cioè il main axis */
+    /* flex-start è il valore di default */
+    /* justify-content: flex-start; */ 
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+
+    /* ALIGN ITEMS allinea lungo l'asse trasversale */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+
+    background-color: #f0f0f0;
+    padding: 10px;
+    height: 300px;
+}
+
+.item{
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
